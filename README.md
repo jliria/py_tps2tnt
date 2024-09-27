@@ -1,11 +1,14 @@
 py_tps2tnt is a Python-based graphical tool that facilitates the conversion of TPS files containing morphometric landmark data into TNT file format for subsequent phylogenetic analysis*. The program allows users to process Generalized Procrustes Analysis (GPA), calculate distances between landmarks (EDMA), and export results with options for centroid size calculations and interval estimations.
-This manual will guide you through loading TPS files, running analyses, and exporting results using the program’s graphical interface.
+
+The PDF manual will guide you through loading TPS files, running analyses, and exporting results using the program’s graphical interface.
+
+Also, I prepared a video tutorial (for Spanish users): https://youtu.be/ubR3w-yRhx4
 
 Before using py_tps2tnt, make sure you have the following installed:
 
 Python 3.x
 	
- The following Python libraries:
+ And the following Python libraries:
  
  tkinter
  
