@@ -18,7 +18,7 @@ Python 3.x
  
  matplotlib
  
- morphops (Vai Patel, 2021)
+ morphops (Patel, 2021)
 ________________________________________
 
 Launching the program
