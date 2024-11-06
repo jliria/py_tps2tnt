@@ -1,0 +1,9 @@
+cff-version: 4.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Jonathan
+  given-names: Liria
+orcid: https://orcid.org/0000-0003-1611-8364
+title:jliria/py_tps2tnt: py_tps2tnt in Zenodo
+version: v4.2
+date-released: 2024-11-06
