@@ -1,9 +1,10 @@
-cff-version: 4.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: Jonathan
   given-names: Liria
 orcid: https://orcid.org/0000-0003-1611-8364
-title:jliria/py_tps2tnt: py_tps2tnt in Zenodo
+title: "A program to export geometric morphometrics (x,y coordinates) to TNT format for cladistic analysis of continuous data."
 version: v4.2
 date-released: 2024-11-06
+doi: 10.5281/zenodo.14046448
