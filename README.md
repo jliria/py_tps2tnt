@@ -27,3 +27,8 @@ Launching the program
 
 
 ![image](https://github.com/user-attachments/assets/161f45c1-39e6-4c56-a88d-2716b6f6a26e)
+<br><br>
+<br><br>
+Cite as:
+<br><br>
+Liria, Jonathan, y Ana Soto-Vivas. 2025. «py_tps2tnt Y py_tm2tnt: Dos Programas En Python Para Procesamiento De Datos morfométricos En análisis cladísticos Con TNT». Revista Peruana De Biología 32 (2): e30018. https://doi.org/10.15381/rpb.v32i2.30018.
