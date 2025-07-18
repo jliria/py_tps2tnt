@@ -1,3 +1,7 @@
+# py_tps2tnt
+<p align="center">
+  <img width="120" height="120" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizm8CNVbZ_G-Unsp3thffm3K9SGIZCXa7o48boAH-Pa25jK6qxR_PlBI4MzaLqdTyYrQPgjzNDKWwMbzHTz6zO78VFcA_UTLbBdUlYbvWKqfNP08dwuoflFLSdKW1vhdssAxbR04LipJxxBVnwiGlkYKHRdyR_Z1CIblifpoCVvgbW7hfa5C6rl4MN98LM/w122-h122/Icon%20py_tps2tnt.png">
+</p>
 py_tps2tnt is a Python-based graphical tool that facilitates the conversion of TPS files containing morphometric landmark data into TNT file format for subsequent phylogenetic analysis*. The program allows users to process Generalized Procrustes Analysis (GPA), calculate distances between landmarks (EDMA), and export results with options for centroid size calculations and interval estimations.
 
 The PDF manual will guide you through loading TPS files, running analyses, and exporting results using the program’s graphical interface.
