@@ -1,38 +1,81 @@
-# py_tps2tnt
-<p align="center">
-  <img width="120" height="120" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizm8CNVbZ_G-Unsp3thffm3K9SGIZCXa7o48boAH-Pa25jK6qxR_PlBI4MzaLqdTyYrQPgjzNDKWwMbzHTz6zO78VFcA_UTLbBdUlYbvWKqfNP08dwuoflFLSdKW1vhdssAxbR04LipJxxBVnwiGlkYKHRdyR_Z1CIblifpoCVvgbW7hfa5C6rl4MN98LM/w122-h122/Icon%20py_tps2tnt.png">
-</p>
-py_tps2tnt is a Python-based graphical tool that facilitates the conversion of TPS files containing morphometric landmark data into TNT file format for subsequent phylogenetic analysis*. The program allows users to process Generalized Procrustes Analysis (GPA), calculate distances between landmarks (EDMA), and export results with options for centroid size calculations and interval estimations.
+# py_tps2tnt: A Python GUI for Geometric Morphometric Data Conversion for Cladistics analysis
 
-The PDF manual will guide you through loading TPS files, running analyses, and exporting results using the program’s graphical interface.
+<div align="left">
+  <img width="120" height="120" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbdwXB_EFg_UQ_wi24dN3EJ1MgsTapyelahD4VojYxY1EM9oOUa3Ryhh52_oK4gzG-koGDw75kIcgjuI8F5Y-fRC8auuLpTrTtg_6zImfoTZk_ZShDlOilkH8nLutZoF-1cqsP3A3G7dTlnCROGFA1Ds07fLYDnLjvjkAIRldPRE7IiI7rmbOr3v3dNaL6/w113-h113/Icon%20py_tm2tnt.png" alt="py_tps2tnt Logo">
 
-Also, I prepared a video tutorial (for Spanish users): https://youtu.be/ubR3w-yRhx4
+  **Developed by: Jonathan Liria & Ana Soto-Vivas**
 
-Before using py_tps2tnt, make sure you have the following installed:
+  [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Journal](https://img.shields.io/badge/Journal-RPB%20(2025)-green)](https://doi.org/10.15381/rpb.v32i2.30018)
+</div>
 
-Python 3.x
-	
- And the following Python libraries:
- 
- tkinter
- 
- numpy
- 
- scipy
- 
- matplotlib
- 
- morphops (Patel, 2021)
-________________________________________
+---
 
-Launching the program
-1.	Run the script py_tps2tnt.py to open the graphical interface.
-2.	The main window of py_tps2tnt will appear, and you can start loading TPS files and performing analyses.
+## Overview
 
+`py_tps2tnt` is a Python-based graphical user interface (GUI) application designed for evolutionary biologists and systematists who need to convert geometric morphometric data from landmark configurations into native format for **TNT (Tree Analysis using New Technologies)** to perform parsimony-based cladistic analyses. 
 
-![image](https://github.com/user-attachments/assets/161f45c1-39e6-4c56-a88d-2716b6f6a26e)
-<br><br>
-<br><br>
-Cite as:
-<br><br>
-Liria, Jonathan, y Ana Soto-Vivas. 2025. «py_tps2tnt Y py_tm2tnt: Dos Programas En Python Para Procesamiento De Datos morfométricos En análisis cladísticos Con TNT». Revista Peruana De Biología 32 (2): e30018. https://doi.org/10.15381/rpb.v32i2.30018.
+The software streamlines dataset preparation by parsing standard `.tps` files containing 2D coordinate landmark datasets. It automates landmark parsing, manages multi-specimen averaging routines per terminal species, and processes measurement scales following the strict operational criteria and guidelines of *Catalano & Goloboff (2018)*. This eliminates the tedious and error-prone process of manual coordinate string formatting for TNT data blocks.
+
+<div align="center">
+  <img width="500" src="images/py_tps2tnt_interface.png" alt="py_tps2tnt Main Interface" style="border-radius: 6px; border: 1px solid #ddd; margin-top: 15px;">
+  <p><em>Figure 1. Main graphical interface of py_tps2tnt for TPS file uploading and landmark parameter configurations.</em></p>
+</div>
+
+---
+
+## Video Tutorial
+
+For a comprehensive walkthrough on landmark data loading, specimen configuration, and practical export workflows, a video tutorial is available (optimized for Spanish-speaking users):
+
+📺 **[Watch the py_tps2tnt Video Tutorial on YouTube](https://youtu.be/YOUR_VIDEO_ID_HERE)**
+
+---
+
+## System Requirements & Prerequisites
+
+Before launching `py_tps2tnt`, please ensure your local machine environment has the following components installed:
+
+### System Environment
+* **Python 3.x**
+
+### Required Python Libraries
+The application relies on standard and scientific computation frameworks:
+```text
+pandas         # Data matrix manipulation and alignment
+tkinter        # Graphical user interface rendering window
+numpy          # Multi-dimensional numerical array calculation for coordinates
+math           # Geometrical transformations and scale processing
+csv            # Standard parsing utilities
+os             # Local system file directory path handling
+re             # Regex-driven token parsing for TPS landmarks
+
+---
+
+### Repository structure
+
+```text
+py_tm2tnt/
+│
+├── CITATION.cff          # Machine-readable citation metadata file
+├── LICENSE               # Full distribution text (MIT Open-Source terms)
+├── README.md             # Repository documentation and landing guide
+├── data_examples.rar     # Example data compressed file
+├── py_tps2tnt Manual.pdf # Comprehensive user operations manual
+└── py_tps2tnt_v4.2.py    # Main Python graphical application source code
+```
+---
+
+### How to Cite
+
+If this application saves you manual editing hours and assists you in compiling dataset blocks for your research projects, please cite our peer-reviewed work:   
+
+Liria, J., & Soto-Vivas, A. 2025. «py_tps2tnt y py_tm2tnt: Dos programas en Python para procesamiento de datos morfométricos en análisis cladísticos con TNT». Revista Peruana de Biología, 32 (2): e30018. https://doi.org/10.15381/rpb.v32i2.30018   
+
+---
+
+### License
+
+This project is licensed under the open-source MIT License - see the local repository LICENSE file for details.
+
