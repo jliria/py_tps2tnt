@@ -19,7 +19,8 @@
 The software streamlines dataset preparation by parsing standard `.tps` files containing 2D coordinate landmark datasets. It automates landmark parsing, manages multi-specimen averaging routines per terminal species, and processes measurement scales following the strict operational criteria and guidelines of *Catalano & Goloboff (2018)*. This eliminates the tedious and error-prone process of manual coordinate string formatting for TNT data blocks.
 
 <div align="center">
-  <img width="500" src="images/py_tps2tnt_interface.png" alt="py_tps2tnt Main Interface" style="border-radius: 6px; border: 1px solid #ddd; margin-top: 15px;">
+  <img width="530" height="422" alt="image" src="https://github.com/user-attachments/assets/0f1f61b6-a629-42a6-84c5-142ff93eb276" style="border-radius: 6px; border: 1px solid #ddd; margin-top: 15px;">
+
   <p><em>Figure 1. Main graphical interface of py_tps2tnt for TPS file uploading and landmark parameter configurations.</em></p>
 </div>
 
@@ -29,7 +30,7 @@ The software streamlines dataset preparation by parsing standard `.tps` files co
 
 For a comprehensive walkthrough on landmark data loading, specimen configuration, and practical export workflows, a video tutorial is available (optimized for Spanish-speaking users):
 
-📺 **[Watch the py_tps2tnt Video Tutorial on YouTube](https://youtu.be/YOUR_VIDEO_ID_HERE)**
+📺 **[Watch the py_tps2tnt Video Tutorial on YouTube](https://www.youtube.com/watch?v=ubR3w-yRhx4&t)**
 
 ---
 
@@ -50,13 +51,14 @@ math           # Geometrical transformations and scale processing
 csv            # Standard parsing utilities
 os             # Local system file directory path handling
 re             # Regex-driven token parsing for TPS landmarks
+```
 
 ---
 
 ### Repository structure
 
 ```text
-py_tm2tnt/
+py_tps2tnt/
 │
 ├── CITATION.cff          # Machine-readable citation metadata file
 ├── LICENSE               # Full distribution text (MIT Open-Source terms)
