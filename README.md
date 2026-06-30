@@ -5,6 +5,9 @@
 
   **Developed by: Jonathan Liria & Ana Soto-Vivas**
 
+  **Neotropical Cladistic Biogeography Computing Lab (NCBC-Lab)**  
+An academic initiative focused on developing high-performance computational tools for complex spatial analysis, biogeography, and systematic biology in the Neotropics.
+
   [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Journal](https://img.shields.io/badge/Journal-RPB%20(2025)-green)](https://doi.org/10.15381/rpb.v32i2.30018)
@@ -73,8 +76,7 @@ py_tps2tnt/
 
 If this application saves you manual editing hours and assists you in compiling dataset blocks for your research projects, please cite our peer-reviewed work:   
 
-Liria, J., & Soto-Vivas, A. 2025. «py_tps2tnt y py_tm2tnt: Dos programas en Python para procesamiento de datos morfométricos en análisis cladísticos con TNT». Revista Peruana de Biología, 32 (2): e30018. https://doi.org/10.15381/rpb.v32i2.30018   
-
+Liria, J., & Soto-Vivas, A. 2025. «py_tps2tnt y py_tm2tnt: Dos programas en Python para procesamiento de datos morfométricos en análisis cladísticos con TNT». Revista Peruana de Biología, 32 (2): e30018. https://doi.org/10.15381/rpb.v32i2.30018  
 ---
 
 ### License
